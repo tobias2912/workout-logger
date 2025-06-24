@@ -32,7 +32,7 @@ export default function LoginPage() {
           Fitness Chronicle
         </h1>
         <p className="mt-4 max-w-md text-lg text-muted-foreground">
-          Your personal journey to strength and wellness, tracked and visualized.
+          workout logger
         </p>
         <Button onClick={handleLogin} className="mt-8" size="lg">
           <svg role="img" viewBox="0 0 24 24" className="mr-2 h-4 w-4"><path fill="currentColor" d="M12.48 10.92v3.28h7.84c-.24 1.84-.85 3.18-1.73 4.1-1.02 1.02-2.62 1.9-4.73 1.9-3.87 0-7-3.13-7-7s3.13-7 7-7c1.93 0 3.38.79 4.34 1.74l2.06-2.06C18.15 1.16 15.65 0 12.48 0 5.6 0 0 5.6 0 12.5S5.6 25 12.48 25c3.24 0 5.73-1.12 7.64-3.03 2.01-2.01 2.62-4.82 2.62-7.37v-.55h-10.2z"></path></svg>
