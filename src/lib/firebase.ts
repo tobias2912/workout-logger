@@ -5,12 +5,18 @@ import { getFirestore } from "firebase/firestore";
 // IMPORTANT: Replace with your actual Firebase configuration
 // You can get this from the Firebase console for your project.
 const firebaseConfig: FirebaseOptions = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCxLleoaeXfhGFna6tPuA6BMoKf12AVB-Q",
+
+  authDomain: "workout-logger-7342d.firebaseapp.com",
+
+  projectId: "workout-logger-7342d",
+
+  storageBucket: "workout-logger-7342d.firebasestorage.app",
+
+  messagingSenderId: "579979635861",
+
+  appId: "1:579979635861:web:4ae56bfd470a20947b7f9c"
+
 };
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
